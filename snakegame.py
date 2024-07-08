@@ -1,6 +1,7 @@
-import pygame
+
 import random
 import json
+import pygame
 
 
 pygame.init()
@@ -212,4 +213,6 @@ def game_over(score):
                     return
 
 
-main_menu()
+if __name__ == "__main__":
+    main_menu()
+
